@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "inventory-shortcut-fix",
+  "version": "${version}",
+
+  "name": "InventoryShortcutFix",
+  "description": "Fix inventory shortcuts (use custom bindings instead of hardcoded)",
+  "authors": [
+    "insertt"
+  ],
+  "contact": {
+    "sources": "https://github.com/insertt/InventoryShortcutFix"
+  },
+
+  "license": "MIT",
+  "icon": "assets/isf/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "isf.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}
